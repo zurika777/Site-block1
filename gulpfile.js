@@ -28,6 +28,7 @@ const path = {
         js:     distPath + "assets/js/",
         css:    distPath + "assets/css/",
         images: distPath + "assets/images/",
+        blocks: distPath + "assets/bloks/",
         fonts:  distPath + "assets/fonts/"
     },
     src: {
@@ -41,6 +42,7 @@ const path = {
         html:   srcPath + "**/*.html",
         js:     srcPath + "assets/js/**/*.js",
         css:    srcPath + "assets/scss/**/*.scss",
+        blocks: srcPath + "assets/blocks/**/*.scss", //chamatebuli
         images: srcPath + "assets/images/**/*.{jpg,png,svg,gif,ico,webp,webmanifest,xml,json}",
         fonts:  srcPath + "assets/fonts/**/*.{eot,woff,woff2,ttf,svg}"
     },
@@ -208,6 +210,7 @@ function watchFiles() {
     gulp.watch([path.watch.html], html);
     gulp.watch([path.watch.css], cssWatch);
     gulp.watch([path.watch.js], jsWatch);
+    gulp.watch([path.watch.blocks], cssWatch); //esd sheamocme
     gulp.watch([path.watch.images], images);
     gulp.watch([path.watch.fonts], fonts);
 }
@@ -222,6 +225,7 @@ exports.html = html;
 exports.css = css;
 exports.js = js;
 exports.images = images;
+exports.blocks = css;
 exports.fonts = fonts;
 exports.clean = clean;
 exports.build = build;
