@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="assets/css/style.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/scc?family=Montserrat:300,300i,400,700$display=swap">
+    
     <!-- Useful meta tags -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="robots" content="index, follow">
@@ -12,62 +15,528 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="description" content="">
     
-    <title>Portfolio | Home</title>
+    <title>Z.D | Home</title>
+
 </head>
 <body>
 
-    <!--
-    <header class="header">
-        <div class="container">
-            <div class="header__inner">
-                <div class="user">
-                        <div class="user__avatar">
-                            <img src="https://via.placeholder.com/57/333" alt="">
-                        </div>
-                    <div class="user__content">
-                        <div class="user__name">Z <br> Danelia</div>
-                        <div class="user__prof">D &amp; Designer</div>
-                    </div>
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="user">
+                <div class="user__avatar">
+                    <a href="index.html">
+                        <img src="https://via.placeholder.com/57/333" alt="">
+                    </a>
                 </div>
-                <nav class="nav">
-                    <a href="" class="nav__link">work</a>
-                    <a href="" class="nav__link">about me</a>
-                    <a href="" class="nav__link">blog</a>
-                    <a href="" class="nav__link active">here me</a>
-                </nav>
+                <div class="user__content">
+                    <div class="user__name">Zurab <br> Danelia</div>
+                    <div class="user__prof">D &amp; Designer</div>
+                </div>
+            </div>
+            <nav class="nav">
+                <a href="#" class="nav__link">პროცესი</a>
+                <a href="#" class="nav__link">Seo ოპტიმიზაცია</a>
+                <a href="#" class="nav__link">ნამუშევრები</a>
+                <a href="#" class="nav__link">კონტაქტი</a>
+                <a href="#" class="nav__link nav__link--btn">მოგვწერეთ</a>
+            </nav>
+
+        </div>
+    </div>
+</header>
+<!--header-->
+
+<section class="intro">
+    <div class="container">
+        <div class="intro__inner">
+            <div class="intro__content">
+
+                <h1 class="intro__title">ვებ-გვერდების</h1>
+                <h2 class="intro__subtitle">
+                    დამზადება</h2>
+                <div class="intro__text">ჩვენ ვზრუნავთ თქვენზე</div>
+
+                <div class="social">
+                    <a href="" class="social__link">
+                        <img src="assets/images/behance.svg" alt=""></a>
+                    <a href="" class="social__link">
+                        <img src="assets/images/behance.svg" alt=""></a>
+                    <a href="" class="social__link">
+                        <img src="assets/images/behance.svg" alt=""></a>
+                    <a href="" class="social__link">
+                        <img src="assets/images/behance.svg" alt=""></a>
+                    <a href="" class="social__link">
+                        <img src="assets/images/behance.svg" alt=""></a>
+                    <a href="" class="social__link">
+                        <img src="assets/images/behance.svg" alt=""></a>
+                </div>
+                <a href="#" class="btn btn--plus" data-modal="#project_1">კონტაქტი</a>
+                <button class="btn" type="button" >აირჩიეთ</button>
+            </div>
+
+            <div class="intro__photo">
+                <img class="intro__imigia" src="assets/images/about1.svg" alt="">
+            </div>
+
+
+        </div>
+
+    </div>
+</section>
+<!--intro-->
+<div class="works">
+    <div class="container">
+        <div class="works__nav">
+            <a href="" class="works__nav-link" data-filter="all">ყველა</a>
+            <a href="#" class="works__nav-link" data-filter="veb-gverdi">ვებ-გვერდები</a>
+            <a href="#" class="works__nav-link" data-filter="app">App</a>
+            <a href="#" class="works__nav-link" data-filter="intaqtioni">ინტაქტიონი</a>
+            <a href="#" class="works__nav-link" data-filter="feizbooqi">ფეიზბუქი</a>
+            <a href="#" class="works__nav-link" data-filter="reklama">რეკლამირება</a>
+        </div>
+    </div>
+</div>
+<!--works-->
+
+
+<div class="container">
+    
+    <div class="portfolio" id="portfolio">
+        <div class="portfolio__col" data-cat="yvela">
+            <div class="work" data-modal="#project_1">
+                <picture>
+                    <source srcset="assets/images/esaris.webp"  type="image/webp">
+                    <img class="work__image" src="esaris.jpg" alt="">
+                </picture>
+    
+            <div class="work__content">
+                <div class="work__cat">კატეგორია: ყველა</div>
+                <div class="work__title">
+                    Project
+                    <time class="work__date"
+                          datetime="2022-12-22 22:59">2022</time>
+                </div>
+            </div>
             </div>
         </div>
-    </header>-->
-    <header class="header">
-        <div class="container">
-            <div class="header__inner">
-                <div class="user">
-                        <div class="user__avatar">
-                            <img src="https://via.placeholder.com/57/333" alt="">
-                        </div>
-                    <div class="user__content">
-                        <div class="user__name">Z <br> Danelia</div>
-                        <div class="user__prof">D &amp; Designer</div>
+        <div class="portfolio__col" data-cat="app">
+            <div class="work" data-modal="#project_2">
+                <picture>
+                    <source srcset="assets/images/Screensho.webp"  type="image/webp">
+                    <img class="work__image" src="Screensho.jpg" alt="">
+                </picture>
+    
+                <div class="work__content">
+                    <div class="work__cat">კატეგორია: აპპ</div>
+                    <div class="work__title">
+                        Project
+                        <time class="work__date"
+                              datetime="2022-12-22 22:59">2022</time>
                     </div>
                 </div>
-                <nav class="nav">
-                    <a href="" class="nav__link">work</a>
-                    <a href="" class="nav__link">about me</a>
-                    <a href="" class="nav__link">blog</a>
-                    <a href="" class="nav__link">contact</a>
-                    <a href="" class="nav__link nav__link--btn">here me</a>
-                </nav>
             </div>
         </div>
-    </header>
+        <div class="portfolio__col" data-cat="veb-gverdi">
+            <div class="work">
+                <picture>
+                    <source srcset="assets/images/Screenshot2.webp"  type="image/webp">
+                    <img class="work__image" src="Screenshot2.jpg" alt="">
+                </picture>
+    
+                <div class="work__content">
+                    <div class="work__cat">კატეგორია: ვებ-გვერდები</div>
+                    <div class="work__title">
+                        Project
+                        <time class="work__date"
+                              datetime="2022-12-22 22:59">2022</time>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio__col" data-cat="intaqtioni">
+            <div class="work">
+                <picture>
+                    <source srcset="assets/images/Screenshot3.webp"  type="image/webp">
+                    <img class="work__image" src="Screenshot3.jpg" alt="">
+                </picture>
+                <div class="work__content">
+                    <div class="work__cat">კატეგორია: ინტაქტიონი</div>
+                    <div class="work__title">
+                        Project
+                        <time class="work__date"
+                              datetime="2022-12-22 22:59">2022</time>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio__col" data-cat="feizbooqi">
+            <div class="work">
+                <picture>
+                    <source srcset="assets/images/Screenshot4.webp"  type="image/webp">
+                    <img class="work__image" src="Screenshot4.jpg" alt="">
+                </picture>
+                <div class="work__content">
+                    <div class="work__cat">კატეგორია: ფეიზბუქი</div>
+                    <div class="work__title">
+                        Project
+                        <time class="work__date"
+                              datetime="2022-12-22 22:59">2022</time>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio__col" data-cat="reklama">
+            <div class="work">
+                <picture>
+                    <source srcset="assets/images/Screenshot5.webp"  type="image/webp">
+                    <img class="work__image" src="Screenshot5.jpg" alt="">
+                </picture>
+                <div class="work__content">
+                    <div class="work__cat">კატეგორია: რეკლამა</div>
+                    <div class="work__title">
+                        Project
+                        <time class="work__date"
+                              datetime="2022-12-22 22:59">2022</time>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    <div class="text__center">
+        <a href="#" class="btn btn--sm">მეტის ნახვა</a>
+    
+    </div>
+    <div class="about">
+        <div class="container">
+            <div class="about__inner">
+                <div class="about__photo">
+                    <picture>
+                        <source srcset="assets/images/banerimage.webp"  type="image/webp">
+                        <img class="img" src="assets/images/banerimage.jpg" alt="">
+                    </picture>
+    
+                </div>
+                <div class="about__content">
+                    <h3 class="about__title">საიტის დამზადება</h3>
+                    <h2 class="about__bigtitle">ფასები</h2>
+                    <div class="about__text"><p>
+                        საიტის დამზადების ფასი შეიძლება ძალინ განსხვავებული იყოს ერთმანეთისგან. დიდი მნიშვნელობა
+                        აქვს როგორი საიტის დამზადება გინდათ,რა ინფორმაციული მოცულობის, რა პარამეტრების ,
+                        დაცულობის, დიზაინის, ანიმაციების, რამდენად სრულყოფილი სეო ოპტიმიზაცია აქვს ,რა ძრავზეა და ა შ.
+                        ყველაფერი ეს განსაზღვრავს შესასრულებელი სამუშაობს მოცულობას, რაც დიდია შესასრულებელი სამუშაო მით დიდია ფას...
+    
+                    </p></div>
+    
+    
+                    <a href="#" class="btn">კონტაქტი</a>
+                    <button type="button" class="btn">აირჩიეთ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="reviews">
+        <div class="container">
+            <div class="reviews__item">
+                <div class="reviews__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci aliquid atque autem consequatur deserunt doloribus ea eaque, impedit itaque modi, neque quasi, recusandae soluta suscipit! In quibusdam vel voluptatem?</p>
+                </div>
+    
+                <div class="reviews__autor">
+                    <img class="reviews__photo" src="https://via.placeholder.com/333" alt="">
+                    <div class="reviews__name">zuka</div>
+                    <div class="reviews__compani">designer</div>
+                    <div class="reviesw__reiting"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal" id="project_1">
+        <div class="modal__dialog">
+            <!--modal__dialog&#45;&#45;sm es aris sxva kole rtu gvinda-->
+            <button class="modal__close" type="button" data-close>
+                <img src="assets/images/close.svg" alt="Close">
+            </button>
+            <div class="modal-work">
+                <div class="modal-work__preview">
+                    <div id="worksSlider">
+                        <div>
+                            <img class="modal-work__photo" src="https://via.placeholder.com/790x780" alt="">
+                        </div> <div>
+                        <img class="modal-work__photo" src="https://via.placeholder.com/790x780/333" alt="">
+                    </div>
+                    </div>
+                </div>
+                <div class="modal-work__content">
+    
+                    <div class="modal-work__header">
+                        <h3 class="modal-work__title">FACEBOOK გვერდის მართვა</h3>
+                        <div class="model-work__info">
+                            category <span class="modal-work__info-divider">|</span> 2022
+                        </div>
+                    </div>
+                    <div class="modal-work__client">
+                        <div class="modal-work__client-title">Client:</div>
+                        <div class="modal-work__client-company">Creative Agency</div>
+                    </div>
+    
+                    <div class="modal-work__text">
+                        <p>Facebook გვერდის შექმნა და მართვა მოყვარულის დონეზე ნებისმიერ მსურველს შეუძლია, მაგრამ წარმატების მისაღწევად მხოლოდ გვერდის შექმნა არ კმარა.
+                            მთავარი სამუშაოები გვერდის შექმნის შემდეგ იწყება, რასაც ჩვენ გთავაზობთ.</p>
+                        <p>Facebook გვერდის მართვა იყოფა რამდენიმე ეტაპად:</p>
+                        <p>პირველ რიგში სანამ Facebook გვერდის მართვა დაიწყება, საჭიროა განისაზღვროს კომპანიის მიზნები და კომპანიის პოზიციონირების სტრატეგია სოციალურ ქსელში.</p>
+                        <p>მოხდება სამიზნე აუდიტორიის განსაზღვრა სქესის, ასაკის, ადგილმდებარეობის, ოჯახური მდგომარეობის, საქმიანობის სფეროსა და ინტერესების მიხედვით, რაც საშუალებას მოგვცემს თქვენი Facebook გვერდის მართვა იყოს მაღალ შედეგიანი, გაიზარდოს ცნობადობა და სამიზნე აუდიტორიაში გავაჩინოთ თქვენი პროდუქტისა თუ სერვისის მოთხოვნა ან მოლოდინი.</p>
+                        <p>Facebook გვერდის მართვა საჭიროებს ზუსტი სამიზნე აუდიტორიის შერჩევას ჩვენი მხრიდან. ამ აუდიტორიის მიხედვით ჩამოყალიბდება სოციალური მედია სტრატეგია.</p>
+                        <p>გვერდის მართვის ნაწილს წარმოადგენს Facebook გვერდისა და პოსტების ბრენდირება წინასწარ განსაზღვრული სტილით, რომელიც ექნება გვერდის ქავერს, პროფილის სურათს და თითოეული პოსტის სურათს, ანიმაციასა თუ ვიდეოს.</p>
+                        <p>შეირჩევა თემატური პოსტები, რომლებიც იქნება საინტერესო, სახალისო ან საინფორმაციო, გვერდის მიზნებიდან და აუდიტორიიდან გამომდინარე. დამუშავდება შესაბამისი ფოტოსურათები ან დაიხატება თემატური სარეკლამო ბანერები.</p>
+                        <p>Facebook გვერდის მართვის ღირებულება განისაზღვრება გვერდის აქტიურობიდან გამომდინარე:
+                            პოსტების რაოდენობა თვეში
+                            ბანერების დამზადება, ბრენდირება
+                            პროფილის და ქავერის სურათების დახატვა/შექმნა
+                            უკუკავშირი კომენტარებზე და შემოსულ შეტყობინებებზე
+                            სამიზნე აუდიტორიების შექმნა
+                            სარეკლამო კამპანიის წარმოება
+                            რეპორტების მომზადება</p>
+                    </div>
+                    <div class="model-work__footer">
+                        <button class="modal-work__btn modal-work--prev"><img src="assets/images/back.svg" width="12px" alt="">Previous</button>
+                        <button class="modal-work__btn modal-work--next">Next<img src="assets/images/next.svg" width="12px" alt=""></button>
+                    </div>
+                </div><!--/modal-work__content-->
+            </div> <!--/modal-work-->
+        </div> <!--/modal-dialog-->
+    </div> <!--/modal-->
+    
+    
+    
+    
+    <div class="modal" id="project_2">
+        <div class="modal__dialog">
+            <!--modal__dialog&#45;&#45;sm es aris sxva kole rtu gvinda-->
+            <button class="modal__close" type="button" data-close>
+                <img src="assets/images/close.svg" alt="Close">
+            </button>
+            <div class="modal-work">
+    
+                <div class="modal-work__content-plius modal-work__conten-plius--sm ">
+    
+                    <div class="modal-work__header">
+                        <h3 class="modal-work__title">FACEBOOK გვერდის მართვა</h3>
+                        <div class="model-work__info">
+                            category <span class="modal-work__info-divider">|</span> 2022
+                        </div>
+                    </div>
+                    <div class="modal-work__client">
+                        <div class="modal-work__client-title">Client:</div>
+                        <div class="modal-work__client-company">Creative Agency</div>
+                    </div>
+    
+                    <div class="modal-work__text">
+                        <p>Facebook გვერდის შექმნა და მართვა მოყვარულის დონეზე ნებისმიერ მსურველს შეუძლია, მაგრამ წარმატების მისაღწევად მხოლოდ გვერდის შექმნა არ კმარა.
+                            მთავარი სამუშაოები გვერდის შექმნის შემდეგ იწყება, რასაც ჩვენ გთავაზობთ.</p>
+                        <p>Facebook გვერდის მართვა იყოფა რამდენიმე ეტაპად:</p>
+                        <p>პირველ რიგში სანამ Facebook გვერდის მართვა დაიწყება, საჭიროა განისაზღვროს კომპანიის მიზნები და კომპანიის პოზიციონირების სტრატეგია სოციალურ ქსელში.</p>
+                        <p>მოხდება სამიზნე აუდიტორიის განსაზღვრა სქესის, ასაკის, ადგილმდებარეობის, ოჯახური მდგომარეობის, საქმიანობის სფეროსა და ინტერესების მიხედვით, რაც საშუალებას მოგვცემს თქვენი Facebook გვერდის მართვა იყოს მაღალ შედეგიანი, გაიზარდოს ცნობადობა და სამიზნე აუდიტორიაში გავაჩინოთ თქვენი პროდუქტისა თუ სერვისის მოთხოვნა ან მოლოდინი.</p>
+                        <p>Facebook გვერდის მართვა საჭიროებს ზუსტი სამიზნე აუდიტორიის შერჩევას ჩვენი მხრიდან. ამ აუდიტორიის მიხედვით ჩამოყალიბდება სოციალური მედია სტრატეგია.</p>
+                        <p>გვერდის მართვის ნაწილს წარმოადგენს Facebook გვერდისა და პოსტების ბრენდირება წინასწარ განსაზღვრული სტილით, რომელიც ექნება გვერდის ქავერს, პროფილის სურათს და თითოეული პოსტის სურათს, ანიმაციასა თუ ვიდეოს.</p>
+                        <p>შეირჩევა თემატური პოსტები, რომლებიც იქნება საინტერესო, სახალისო ან საინფორმაციო, გვერდის მიზნებიდან და აუდიტორიიდან გამომდინარე. დამუშავდება შესაბამისი ფოტოსურათები ან დაიხატება თემატური სარეკლამო ბანერები.</p>
+                        <p>Facebook გვერდის მართვის ღირებულება განისაზღვრება გვერდის აქტიურობიდან გამომდინარე:
+                            პოსტების რაოდენობა თვეში
+                            ბანერების დამზადება, ბრენდირება
+                            პროფილის და ქავერის სურათების დახატვა/შექმნა
+                            უკუკავშირი კომენტარებზე და შემოსულ შეტყობინებებზე
+                            სამიზნე აუდიტორიების შექმნა
+                            სარეკლამო კამპანიის წარმოება
+                            რეპორტების მომზადება</p>
+                    </div>
+                    <div class="model-work__footer">
+                        <button class="modal-work__btn modal-work--prev"><img src="assets/images/back.svg" width="12px" alt="">Previous</button>
+                        <button class="modal-work__btn modal-work--next">Next<img src="assets/images/next.svg" width="12px" alt=""></button>
+                    </div>
+                </div><!--/modal-work__content-->
+            </div> <!--/modal-work-->
+        </div> <!--/modal-dialog-->
+    </div> <!--/modal-->
+    
+    
+    
+    
+    <!--<div class="modal" style="display:none;">
+        <div class="modal__dialog">
+            <button class="modal__close" type="button">
+                <img src="assets/images/close.svg" alt="">
+            </button>
+    
+        </div> &lt;!&ndash;/modal-dialog&ndash;&gt;
+    </div--><!--/modal-->
+    
+    
+    
+    <section class="news">
+        <div class="container">
+            <div class="news__header">
+                <h3 class="news__title">red me</h3>
+                <div class="news__text">Someting i write smart</div>
+    
+            </div>
+            <div class="articles">
+                <div class="articles__col">
+                    <div class="articles__item">
+                        <div class="articles__header">
+                            <time class="articles__date" datetime="2022-12-11">26 <br>iun</time>
+                            <a href=""><img src="https://via.placeholder.com/370x257" alt="" class="articles__photo">
+                            </a>
+                        </div>
+                        <div class="articles__content">
+    
+                            <h4 class="articles__title"> <a href="">ვებ გვერდების დამზადების პროცესი </a></h4>
+    
+                            <div class="articles__cat">category</div>
+                            <div class="articles__text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur nam sapiente sed totam. Ducimus labore numquam sed. Cum deserunt enim eum fuga harum quae quas, quod sit veritatis voluptatum.</p></div>
+                        </div>
+                        <a href="" class="btn btn--sm">read more</a>
+                    </div>
+                </div>
+                <div class="articles__col">
+                    <div class="articles__item">
+                        <div class="articles__header">
+                            <time class="articles__date" datetime="2022-12-11">26 <br>iun</time>
+                            <a href=""><img src="https://via.placeholder.com/370x257" alt="" class="articles__photo">
+                            </a>
+                        </div>
+                        <div class="articles__content">
+    
+                            <h4 class="articles__title"> <a href="">ვებ გვერდების დამზადების პროცესი </a></h4>
+    
+                            <div class="articles__cat">category</div>
+                            <div class="articles__text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur nam sapiente sed totam. Ducimus labore numquam sed. Cum deserunt enim eum fuga harum quae quas, quod sit veritatis voluptatum.</p></div>
+                        </div>
+                        <a href="" class="btn btn--sm">read more</a>
+                    </div>
+                </div>
+                <div class="articles__col">
+                    <div class="articles__item">
+                        <div class="articles__header">
+                            <time class="articles__date" datetime="2022-12-11">26 <br>iun</time>
+                            <a href=""><img src="https://via.placeholder.com/370x257" alt="" class="articles__photo">
+                            </a>
+                        </div>
+                        <div class="articles__content">
+    
+                            <h4 class="articles__title"> <a href="">ვებ გვერდების დამზადების პროცესი </a></h4>
+    
+                            <div class="articles__cat">category</div>
+                            <div class="articles__text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur nam sapiente sed totam. Ducimus labore numquam sed. Cum deserunt enim eum fuga harum quae quas, quod sit veritatis voluptatum.</p></div>
+                        </div>
+                        <a href="" class="btn btn--sm">read more</a>
+                    </div>
+                </div>
+                <div class="articles__col">
+                    <div class="articles__item">
+                        <div class="articles__header">
+                            <time class="articles__date" datetime="2022-12-11">26 <br>iun</time>
+                            <a href=""><img src="https://via.placeholder.com/370x257" alt="" class="articles__photo">
+                            </a>
+                        </div>
+                        <div class="articles__content">
+    
+                            <h4 class="articles__title"> <a href="">ვებ გვერდების დამზადების პროცესი </a></h4>
+    
+                            <div class="articles__cat">category</div>
+                            <div class="articles__text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur nam sapiente sed totam. Ducimus labore numquam sed. Cum deserunt enim eum fuga harum quae quas, quod sit veritatis voluptatum.</p></div>
+                        </div>
+                        <a href="" class="btn btn--sm">read more</a>
+                    </div>
+                </div>
+                <div class="articles__col">
+                    <div class="articles__item">
+                        <div class="articles__header">
+                            <time class="articles__date" datetime="2022-12-11">26 <br>iun</time>
+                            <a href=""><img src="https://via.placeholder.com/370x257" alt="" class="articles__photo">
+                            </a>
+                        </div>
+                        <div class="articles__content">
+    
+                            <h4 class="articles__title"> <a href="">ვებ გვერდების დამზადების პროცესი </a></h4>
+    
+                            <div class="articles__cat">category</div>
+                            <div class="articles__text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur nam sapiente sed totam. Ducimus labore numquam sed. Cum deserunt enim eum fuga harum quae quas, quod sit veritatis voluptatum.</p></div>
+                        </div>
+                        <a href="" class="btn btn--sm">read more</a>
+                    </div>
+                </div>
+                <div class="articles__col">
+                    <div class="articles__item">
+                        <div class="articles__header">
+                            <time class="articles__date" datetime="2022-12-11">26 <br>iun</time>
+                            <a href=""><img src="https://via.placeholder.com/370x257" alt="" class="articles__photo">
+                            </a>
+                        </div>
+                        <div class="articles__content">
+    
+                            <h4 class="articles__title"> <a href="">ვებ გვერდების დამზადების პროცესი </a></h4>
+    
+                            <div class="articles__cat">category</div>
+                            <div class="articles__text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aspernatur nam sapiente sed totam. Ducimus labore numquam sed. Cum deserunt enim eum fuga harum quae quas, quod sit veritatis voluptatum.</p></div>
+                        </div>
+                        <a href="" class="btn btn--sm">read more</a>
+                    </div>
+                </div>
+    
+    
+    
+            </div>
+            <div class="news__footer">
+                <a href="#" class="news__link">მეტის ნახვა</a>
+            </div>
+        </div>
+    </section>
 
 
-        
+ </div>
 
 
-    <footer>Footer</footer>
-    es padvalia
+<footer class="footer">
+<div class="container">
 
-    <script src="assets/js/app.js"></script>
+    <div class="footer__inner">
+    <div class="footer__credits">
+        <div class="footer__copyright">
+            &copy; 2022 UI43 - Z.D
+        </div>
+        <div class="footer__social">
+            <a href="#" >
+                <img src="assets/images/twitter.svg" width="21" alt="">
+            </a> <a href="#" >
+                <img src="assets/images/facebook.svg" width="21" alt="">
+            </a> <a href="#" >
+                <img src="assets/images/twitter.svg" width="21" alt="">
+            </a> <a href="#" >
+                <img src="assets/images/twitter.svg" width="21" alt="">
+            </a>
+        </div>
+
+    </div>
+
+        <nav class="footer__nav">
+            <a class="footer__nav-link">work</a>
+            <a class="footer__nav-link">work</a>
+            <a class="footer__nav-link">work</a>
+            <a class="footer__nav-link footer__nav-link--btn">work</a>
+        </nav>
+    </div>
+</div>
+</footer>
+
+
+
+<script src="assets/js/app.js"></script>
+
+
+
+
 </body>
 </html>
